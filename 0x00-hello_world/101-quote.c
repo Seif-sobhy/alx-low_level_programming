@@ -4,7 +4,7 @@
  * main - Entry point
  *
  * Description: print a quote using write function
- *	write(int fd,const void *buf,size_t count)
+ *	ssize-t write(int fd,const void *buf,size_t count)
  *
  * Retunn: 1 (not success)
  */
