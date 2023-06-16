@@ -25,7 +25,7 @@ int main(void)
 
 				if (digit1 + digit2 != 17)
 				{
-					putchar('.');
+					putchar(',');
 					putchar(' ');
 				}
 			}
