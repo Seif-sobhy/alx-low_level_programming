@@ -23,7 +23,7 @@ int main(void)
 				putchar((firstDigit / 10) + 48);
 				putchar((firstDigit % 10) + 48);
 				putchar(' ');
-				putchar((seconfDigit / 10) + 48);
+				putchar((secondDigit / 10) + 48);
 				putchar((secondDigit % 10) + 48);
 
 				if (firstDigit != 99 || secondDigit != 99)
