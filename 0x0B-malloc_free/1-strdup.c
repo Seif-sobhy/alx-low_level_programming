@@ -12,7 +12,7 @@ char *_strdup(char *str)
 	char *newstr;
 	unsigned int i, length;
 
-	if (str == 0 || newstr == 0)
+	if (str == 0)
 	{
 	return (NULL);
 	}
@@ -24,6 +24,11 @@ char *_strdup(char *str)
 	}
 
 	newstr = malloc(sizeof(char) * (length + 1));
+
+	if (newstr == 0)
+	{
+	return (NULL);
+	}
 
 	for (i = 0; i < length; i++)
 	{
